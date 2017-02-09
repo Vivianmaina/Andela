@@ -21,8 +21,7 @@ class BinarySearch(list):
             elif value == self[last]:
                 found = True
                 midpoint = last
-
-            if value not in self:
+            elif value not in self:
                 found = True
                 midpoint = -1
 
